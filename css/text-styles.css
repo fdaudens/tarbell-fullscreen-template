@@ -19,10 +19,10 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue", Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    margin: 0 0 10px;
+/*    text-transform: uppercase;*/
+    font-family: Roboto,"Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-weight: 400;
     letter-spacing: 1px;
 }
 
@@ -31,6 +31,7 @@ p {
     font-size: 16px;
     line-height: 1.5;
     text-align: left;
+    font-weight: 300;    
 }
 
 @media(min-width:768px) {
@@ -74,14 +75,15 @@ a:hover {
 /* Styles for content top of the page */
 
 .byline{
-    text-align: left;
-    color: #888888;
-    font-size: 1.4em;
+    text-align: center;
+    color: #333;
+    font-size: 1em;
+    font-weight: 400;
     margin-bottom: 1em;
 }
 .bylines-container.bylines-top + .row .col-lg-7 p:first-child:first-letter {
     float: left;
-    color: #888888;
+    color: #333;
     font-size: 93px;
     line-height: 65px;
     padding-top: 4px;
