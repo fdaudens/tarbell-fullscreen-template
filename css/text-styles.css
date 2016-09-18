@@ -31,7 +31,7 @@ p {
     font-size: 16px;
     line-height: 1.5;
     text-align: left;
-    font-weight: 300;    
+    font-weight: 300;
 }
 
 @media(min-width:768px) {
@@ -130,9 +130,14 @@ font-size: 14px;
 display: block;
 margin-top: 5px;
 font-weight: 400;
-
 }
- 
+
+blockquote footer {
+  padding: 20px 0 5px 0;
+  text-align: right;
+  font-weight: 400;
+}
+
 blockquote cite:before {
 content: "\2014 \2009 ";
 }
